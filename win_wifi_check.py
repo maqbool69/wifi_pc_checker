@@ -8,6 +8,7 @@ profile_names = (re.findall("All User Profile     : (.*)\r", command_output))
 
 wifi_list = []
 
+
 if len(profile_names) != 0:
     for name in profile_names:
         wifi_profile = {}
